@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CoViDoc",
+    "slug": "covidoc-iitj",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/imgs/icon.png",
+    "splash": {
+      "image": "./assets/imgs/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.webug.covid",
+      "versionCode": 1
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#303d3b"
+    }
+  }
+}
